@@ -1,0 +1,268 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Leo's BBC</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+    <style type="text/css">
+        body{
+            /*default space*/
+            margin:0;
+            font-family:Arial,Helvetica,freesans,sans-serif;
+            
+        }
+        #topbar{
+            background-color:#FFFFFF;
+            width:100%;
+            height:40px;
+            color:black;
+            
+        }   
+        .fixedwidth{
+            width:1300px;
+            /*center div within a div sets margin to automatically*/
+            margin:0 auto;    
+        
+        }  
+        #logodiv{
+            padding-top:8px;
+            float:left;
+            border-right:1px solid #666666;
+            padding-right:12px; 
+        }
+        
+        #signindiv{
+            font-weight:bold;
+            font-size:.9em;
+            padding: 0px 100px 11px 11px;
+            float:left;
+            border-right:1px solid #666666;
+          
+        }
+        #signindiv img{
+            position:relative;
+            top:6px;
+            
+        }
+        #topmenudiv{
+            float:left;    
+            
+        }
+        #topmenudiv ul{
+            margin:0;
+            padding:0;   
+        
+        }
+        #topmenudiv li{
+            list-style:none;
+            font-size:.9em;
+            font-weight:bold;
+            /*as barrinhas*/
+            border-right:1px solid #666666;
+            height:100%;
+            padding: 10px 20px 14px 20px;
+            float:left;
+        
+        }
+        #morediv{
+            float:left;
+            margin=0;
+            padding:3px 0 0 30px;
+            
+            
+        }
+        #morediv li{
+            list-style:none;
+            margin:0;
+             height:100%;
+            padding:8px 20px 14px 60px;  
+            
+            
+        }
+        #searchdiv{
+            float:left;
+            padding: 8px 0 0 14px;
+            
+        }
+        
+        #searchdiv input{
+            
+            height:20px;
+            width:150px; 
+            border:none;
+            padding:3px 0px 4px 10px;
+            font-size:0.9em;
+            background-image: url("images/magnify.PNG");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-color:#E4E4E4; 
+        }
+        .black a:hover{
+           color:#BB1919;
+        }
+        .break{
+            clear:both;
+        }
+        #newsbar{
+            background-color:#BB1919;
+            width:100%;
+            height:100px;
+            color:white;         
+        }  
+        #newsbar p{
+            margin:0;
+            padding=0;
+            padding-top:10px;
+            float:left;          
+        }
+        #newshead{
+            font-size:3em;
+            
+        }
+        #uk{
+            font-size:0.7em;
+            padding-left:10px;
+        }
+        #rss{
+            float:right;
+            margin-top:50px;
+        }
+        #topicmenu{
+            
+        }
+        #topicmenu ul{
+            background-color:#A91717;
+            padding:5px 0 0 5px;
+            margin:0;
+            height:27px; 
+                        
+        }
+        #topicmenu li{
+            /*to remove bullet point*/
+            list-style:none;
+            font-size:1em;        
+            border-right:1px solid #666666;
+            padding: 2px 25px 2px 25px;
+            float:left;
+            background-color:none;
+        
+        }
+        .machete {
+            float:left;
+        }
+        .newsitem{
+            position:relative;
+            left: 10px;
+            float:left;     
+        }
+        .newsitem a{
+            color:#8FCFFF;
+            text-decoration:none;
+        }
+        .newsitem a:hover{
+            text-decoration:underline;
+        }
+        
+    </style>
+    
+    </head>
+    
+<body>
+  <div id="container">
+    <div id="topbar">
+      <div class="fixedwidth">
+         <div id="logodiv">
+              <img src="images/bbclogo.PNG"/>
+           </div> 
+               <div id="signindiv">
+                   
+                <img src="images/signin.PNG"/> Sign in
+               </div>
+               
+               <div id="topmenudiv">
+                   
+                   <ul>
+                       
+                       <li class="black">News</li>
+                       <li class="black">Sports</li>
+                       <li class="black">Weather</li>
+                       <li class="black">Shop</li>
+                       <li class="black">Earth</li>
+                       <li class="black">Travel</li>
+                       <li class="black">Capital</li>
+                       <li class="black">Culture</li>
+                       <div id="morediv">
+                        <li class="black" >More</li>
+                       </div>
+                   </ul>
+                                      
+               </div>
+               
+                 <div id="searchdiv">
+                        <input type="text" placeholder="search"/>
+                </div>
+      </div>  
+          
+    </div> 
+        <div class="break"></div>
+        
+        <div id="newsbar">
+     
+          <div class="fixedwidth">
+          
+              <p id="newshead">NEWS<span id="uk">UK</span></p>
+             
+                 <div id="rss">
+                     RSS
+                     <img src="images/feed-icon-14x14.png"/>
+                 </div>
+          
+                <div class="break"></div>
+           
+                <div id="topicmenu">
+                    
+                    <ul>
+                        <li>Home</li>
+                        <li>Video</li>
+                        <li>US & Canada</li>
+                        <li>UK</li>
+                        <li>Business</li>
+                        <li>Tech</li>
+                        <li>Science</li>                
+                        <li>Magazine</li>
+                        <li>Entertainment & Arts</li>
+                        <li>Health</li>   
+                        <li>More</li>
+                    </ul>
+                </div>
+          </div>  
+    </div>
+        
+        <div class="break"></div>
+        
+            <div id="content">
+                
+                <div class="fixedwidth">
+                    
+                    <h1>UK faces 'cocktail' of economic risks</h1>
+                    <img align="left"class="manchete" src="images/uk.jpg"/ width="300" height="300">
+                                       
+                    <div class="newsitem">
+                    
+                    <p align="justify">
+    The UK faces a "cocktail" of serious <br>threats from a     slowing global <br>economy as 2016 begins,<br> Chancellor George Osborne will<br> warn.
+                    </p> 
+                        
+                   <p><a href="">Related content
+                       What is the 'cocktail'<br> of financial risks? </a></p>
+                  </div>
+                </div>
+           </div>                 
+         </div>
+</body>
+
+</html>
