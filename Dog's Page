@@ -1,0 +1,26 @@
+!doctype html>
+<html>
+<head>
+   <!-- metadata hoes in here --> 
+   
+   
+    <title>My Dog's Page</title>
+
+</head>
+<body>
+    <h1>Rusty Steele</h1>
+    <h5>Hi, I am a dog. Woof!</h5>
+    
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffvwfLyggBDzYAN1adcvPA70MebI0QFaatBADK9MoHn_sXiio4ik2mOc">
+    
+    <h3>Some of my favorite places:</h3>
+    
+    <ul>
+        <li>The beach</li>
+        <li>The dog park</li>
+        <li>The fire hydrant</li>
+    </ul>
+    
+    <p>Make sure you follow me on <a href ="https://www.instagram.com/dogsofinstagram/?hl=en">Instagram</a></p>
+</body>
+</html>
