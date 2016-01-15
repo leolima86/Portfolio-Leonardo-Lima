@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+   <!-- metadata hoes in here --> 
+   
+   
+    <title>My First Webpage</title>
+
+</head>
+<body>
+  
+ <h1>First Gen Pokemon Chart</h1>
+                
+        <table border="1">
+           
+            <thead>
+                <tr>
+                   <th>Image</th>
+                   <th>Name</th>
+                   <th>Type</th>
+                   <th>Evolves Into</th>
+               </tr>
+            </thead>  
+
+            <tbody>
+                 <tr>
+                    <td><img src="http://img.pokemondb.net/artwork/bulbasaur.jpg"></td>
+                    <td>Bulbasaur</td>
+                    <td>Grass/Poison</td>
+                    <td><a href ="http://pokemondb.net/pokedex/ivysaur">Ivysaur</a></td>          
+                </tr>
+                <tr>
+                    <td><img src="http://img.pokemondb.net/artwork/charmander.jpg"></td>
+                    <td>Charmander</td>
+                    <td>Fire</td>
+                    <td><a href="http://pokemondb.net/pokedex/charmeleon">Charmelon</a></td>
+                </tr>
+                <tr>
+                    <td><img src="http://img.pokemondb.net/artwork/squirtle.jpg"></td>
+                    <td>Squirtle</td>
+                    <td>Water</td>
+                    <td><a href="http://pokemondb.net/pokedex/wartortle">Wartortle</a></td>            
+                </tr>         
+            </tbody>
+         
+        </table>
+              
+</body>
+</html>
