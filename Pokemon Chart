@@ -24,19 +24,19 @@
 
             <tbody>
                  <tr>
-                    <td><img src="http://img.pokemondb.net/artwork/bulbasaur.jpg"></td>
+                    <td><img width ="140" src="http://img.pokemondb.net/artwork/bulbasaur.jpg"></td>
                     <td>Bulbasaur</td>
                     <td>Grass/Poison</td>
                     <td><a href ="http://pokemondb.net/pokedex/ivysaur">Ivysaur</a></td>          
                 </tr>
                 <tr>
-                    <td><img src="http://img.pokemondb.net/artwork/charmander.jpg"></td>
+                    <td><img width ="140" src="http://img.pokemondb.net/artwork/charmander.jpg"></td>
                     <td>Charmander</td>
                     <td>Fire</td>
                     <td><a href="http://pokemondb.net/pokedex/charmeleon">Charmelon</a></td>
                 </tr>
                 <tr>
-                    <td><img src="http://img.pokemondb.net/artwork/squirtle.jpg"></td>
+                    <td><img width ="140" src="http://img.pokemondb.net/artwork/squirtle.jpg"></td>
                     <td>Squirtle</td>
                     <td>Water</td>
                     <td><a href="http://pokemondb.net/pokedex/wartortle">Wartortle</a></td>            
