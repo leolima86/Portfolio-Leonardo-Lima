@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Rusty Steele</h1>
-    <h5>Hi, I am a dog. Woof!</h5>
+    <p>Hi, I am a dog. Woof!</p>
     
     <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffvwfLyggBDzYAN1adcvPA70MebI0QFaatBADK9MoHn_sXiio4ik2mOc">
     
